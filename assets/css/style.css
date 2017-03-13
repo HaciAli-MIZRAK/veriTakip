@@ -1,0 +1,63 @@
+body {
+	background: #f9f6f1;
+	font: 13px/1.7em;
+        font-family: "Arial", sans-serif;
+}
+    
+p { 
+	font: 13px/1.7em; 	
+}
+    
+
+.btn-icon-only {
+	padding-right: 3px;
+	padding-left: 3px;
+}
+
+.navbar .container {
+	position: relative;
+}
+
+.navbar-inner {
+	padding: 7px 0 !important;
+	background: #1A1A1A !important;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+}
+
+.navbar-fixed-top {
+	position: static;
+}
+
+.navbar .nav a {
+	font-size: 11px;
+}
+.navbar .nav>li>a { color:#fff !important;}
+.navbar .brand {
+	font-weight: 600;
+	position: relative;
+	top: 2px;
+}
+
+.navbar .search-query {
+	background-color: #444;
+	width: 150px;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+@media (max-width: 979px) {
+	
+	.navbar-fixed-top {
+		position: static;
+		margin-bottom: 0;
+	}
+	
+	.subnavbar {
+	}
+	
+	.subnavbar .container {		
+		width: auto;
+	}
+}

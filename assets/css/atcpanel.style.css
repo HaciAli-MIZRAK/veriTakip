@@ -1,0 +1,774 @@
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
+body {
+    color: #275968;
+    font-family: 'Lato', sans-serif;
+}
+/* CSS Document */
+.glyphicon:hover {
+    color: red !Important;
+    border: none !Important;
+}
+
+button:focus {outline:0;}
+
+/* ilave drop veya a etiket ayarları */
+.dropdown-menu a:hover {
+    background-color: #080808 !Important;
+    color: #ffffff !Important;
+    border: none !Important;
+}
+.ProductChecked a {
+  background-color: transparent;
+  border: none;
+  outline-width: 0;
+}
+.ProductChecked a:focus {
+  background-color: transparent;
+  border: none;
+  outline-width: 0;
+}
+/*############################################################################*/
+/*########################## MAPS ELEMENTLERİ ################################*/
+/*############################################################################*/
+#atcpanel-maps {
+    position: fixed !Important;
+    whidth: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#atcpanel-maps-x {
+    position: static !Important;
+    width: 100%;
+    height: 400px;
+    box-shadow: 0 1px 2px black !important;
+}
+#atcpanel-maps-x- {
+    //position: fixed !Important;
+    display: inline-block;
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    //bottom: 10px;
+    //left: 10px;
+    //padding: 5px;
+    z-index: 1;
+    box-shadow: 0 1px 5px black !important;
+}
+
+.zoom-level {
+  width: 109px !Important;
+}
+
+.Coordinats {
+    font-size: 1.0em !Important;
+}
+
+@media only screen and (min-width: 326px) {
+
+   /* Map UI */
+  .leaflet-control-zoom {
+    display: block;
+    top: 140px;
+  }
+  
+  .leaflet-control-layers {
+    display: block;
+    top: 65px;
+  }
+  
+  .leaflet-container .leaflet-control-attribution {
+    font-size: 10px;
+  }
+  
+}
+
+/*############################################################################*/
+/*####################### veriTakip.Net Özel Font-Icon #######################*/
+/*############################################################################*/
+/* ilave fonts ayarları */
+.vt-green {
+    color: #70d179 !Important;
+    border: none !Important;
+}
+
+.vt-gray {
+    color: #d2d2d2 !Important;
+    border: none !Important;
+}
+
+.vt-light-gray {
+    color: #e5e5e5 !Important;
+    border: none !Important;
+}
+
+.vt-button-gray {
+    color: #b4b4b4 !Important;
+    border: none !Important;
+}
+
+.vt-red {
+    color: #dc2929 !Important;
+    border: none !Important;
+}
+
+.vt-orange {
+    color: orange !Important;
+    border: none !Important;
+}
+
+
+/*############################################################################*/
+/*############################################################################*/
+/*############################################################################*/
+/* ilave fonts ayarları */
+
+.fa-backgrundx {
+    width: 349px;
+    height: auto;
+    padding-top: 18px;
+    padding-bottom: 10px;
+    margin: -8px 0 15px 0;
+    margin-left: -10px;
+    background-color: #222222;
+    border-left: 10px greenyellow solid;
+}
+
+.fa-right-scollbarx {
+    overflow-y: scroll;
+}
+
+.fa-red {    
+    color: red !Important;
+    border: none !Important;
+}
+
+.fa-black {
+    color: black !Important;
+    border: none !Important;
+}
+
+.fa-orange {
+    color: orange !Important;
+    border: none !Important;
+}
+
+.fa-green {    
+    color: green !Important;
+    border: none !Important;
+}
+
+.fa-blue-primary {
+    color: #428bca !Important;
+    border: none !Important;
+}
+
+.fa-greenyellow {
+    color: greenyellow !Important;
+    border: none !Important; 
+}
+
+.fa-white {
+    color: #ffffff !Important;
+    border: none !Important;
+}
+
+fa-gray-b4 {
+    color: #b4b4b4 !Important;
+    border: none !Important;
+}
+
+.fa-top-1 {
+    margin-top: -5px;
+}
+
+.fa-active {
+    background-color: #e5e5e5 !Important;
+}
+
+.fa-shadow:hover {
+    color: #000 !important;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #222222, 0 0 40px #222222;
+}
+
+.fa-shadow-icon {
+    color: orangered !important;
+    text-shadow: 0 0 10px orange, 0 0 20px #fff, 0 0 30px orange, 0 0 40px orangered;
+}
+
+.fa-text-shadow {
+    font-weight: bold;
+    text-shadow: 2px 2px 0px black, 2px 2px 0px black, 2px 2px 0px black, 2px 2px 0px black !important;
+}
+
+.fa-box-shadow {
+    box-shadow: 0 0 5px black !important;
+}
+
+.fa-box-shadow-white {
+    text-shadow: 2px 2px 2px white, 2px 2px 2px white, 2px 2px 2px white, 2px 2px 2px white !important;
+}
+
+.fa-input-space-15 {
+    margin-top: 10px !important;  
+}
+
+.fa-container-top {
+    margin-top: 80px !important;
+}
+
+.fa-container-top-50px {
+    margin-top: 50px !important;
+}
+
+.hr-style-1 {
+   box-shadow: 0 1px 5px black !important; 
+}
+
+.fa-pull-center {
+    text-align: center;
+}
+
+.table-th-center th {
+    text-align: center;
+}
+
+.table-th-center tbody tr:hover {
+    background: #a5a5a5;
+    cursor: pointer;
+}
+
+#AddProduct tbody td {
+    font-weight: bold;
+}
+
+.right-h2 {
+    float: right;
+}
+
+@media (max-width: 320px) {
+    .left-h2 {
+        font-size: 1.6em;
+        margin-bottom: 3px;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1920px){
+    .fa-register-right {
+        border-radius: 5px;
+        right: 15px;
+        box-shadow: 0 1px 5px #B3B4BD !important;
+    }
+    
+    .fa-register-left {
+        border-radius: 5px;
+        box-shadow: 0 1px 5px #B3B4BD !important;
+    }
+}
+@media only screen and (min-width: 326px) and (max-width: 1200px){
+    .fa-register-right {
+        border-radius: 5px;
+        margin-top: 25px;
+        box-shadow: 0 1px 5px #B3B4BD !important;
+    }
+    
+    .fa-register-left {
+        border-radius: 5px;
+        box-shadow: 0 1px 5px #B3B4BD !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar-inverse {
+        display: none;
+    }
+}
+
+@media (max-width: 1280px) {
+    .right-15 {
+        font-size: 0.7em;
+    }
+}
+
+/*############################################################################*/
+/*###################### Navbar Altı Gösterge paneli #########################*/
+/*############################################################################*/
+@media (max-width:326px){
+    #NavbarGostergePaneli {
+        position: relative !important;
+        //display: none;
+        width: 206px !important;
+        height: auto !important;
+        border-radius: 0 0 3px 3px !important;
+        padding-top: 8px !important;
+        padding-bottom: 4px !important;
+        top: 12px !important;
+        margin: auto !important;
+        background: rgba(248, 248, 248, 0.8)!important;
+    }
+}
+@media only screen and (min-width: 326px) and (max-width:1920px){
+    #NavbarGostergePaneli {
+        position: relative !important;
+        //display: none;
+        width: 500px !important;
+        height: auto !important;
+        border-radius: 0 0 3px 3px !important;
+        padding-top: 8px !important;
+        padding-bottom: 4px !important;
+        top: 12px !important;
+        margin: auto !important;
+        background: rgba(248, 248, 248, 0.8)!important;
+    }
+}
+
+#fotografCheck, #fotografCheck2 {
+    display: none;
+}
+#bateryStatus {
+    display: none;
+    //padding: 6px 5px 4px 8px;
+}
+#power-voltaj {
+    display: none;
+    //padding: 6px 5px 4px 8px;
+}
+#satelliteCount {
+    display: none;
+    width: 70px;
+    //padding: 6px 5px 4px 8px;
+}
+
+#rulesxWarning, #atcPhoto {
+    padding: 6px 5px 4px 8px;
+    float: right;
+}
+
+#rulesxWarning span, #atcPhoto span {
+   font-size: 0.7em;
+   font-weight: bold;
+   color: red;
+}
+
+.fa-xSensorHeader {
+    background: rgba(68, 97, 157, 0.9)!important;
+    cursor: move;
+    font-size: 1.2em;
+    color: #ffffff;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.fa-xSensorFooter {
+    background: rgba(68, 97, 157, 0.9)!important;
+    height: 33px;
+    padding: 3px;
+}
+
+.xSensor04-01 {
+    display: none;
+    position: absolute !important;
+    width: 270px;
+    height: 254px;
+    right: 15px;
+    bottom: 79px;
+    //box-shadow: 0 0 5px black !important;
+}
+.xSensor04-02 {
+    display: none;
+    position: absolute !important;
+    width: 270px;
+    height: 254px;
+    right: 15px;
+    bottom: 362px;
+    //box-shadow: 0 0 5px black !important;
+}
+.xSensor04-03 {
+    display: none;
+    position: absolute !important;
+    width: 270px;
+    height: 254px;
+    right: 15px;
+    bottom: 645px;
+    //box-shadow: 0 0 5px black !important;
+}
+
+.xSensor12 {
+    position: absolute !important;
+    width: 600px;
+    height: 495px;
+    right: 287px;
+    bottom: 79px;
+    //box-shadow: 0 0 5px black !important;
+}
+
+.xRawData {
+    position: absolute !important;
+    display: none;
+    width: 850px;
+    height: 395px;
+    right: 287px;
+    bottom: 79px;
+    //box-shadow: 0 0 5px black !important;
+}
+
+#xRawData-veri {
+    width: 835px;
+    height: 300px;
+    padding: 15px;
+    word-wrap: break-word;
+    overflow-y: auto;
+}
+
+#mouseoveron {
+    z-index: 1;
+}
+#mouseoveroff {
+
+}
+
+.ucnokta {
+    
+}
+.ucnoktax {
+    overflow: hidden;
+    width: 105px;
+    text-overflow: ellipsis;
+}
+
+.isideger04-01hiden {
+    margin-right: 30px;
+    margin-top: -25px;
+}
+.isideger04-02hiden {
+    margin-right: 30px;
+    margin-top: -25px;
+}
+.isideger04-03hiden {
+    margin-right: 30px;
+    margin-top: -25px;
+}
+
+#xSensor04-01-warning, #xSensor04-02-warning, #xSensor04-03-warning {
+    width:270px;
+    height:199px;
+    padding-top: 80px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    margin: -10px auto 0px auto;
+    color: red;
+    background: #ffffff;
+}
+.xSensorDataSlider04-01, .xSensorDataSlider04-02, .xSensorDataSlider04-03{
+    overflow: hidden;
+    width: 270px;
+    height: 194px;
+    padding: 0px;
+}
+
+#xSensorDataRulesInput{
+    padding-top: 10px;
+    padding-bottom: 10px; 
+}
+
+.fa-flashx {
+    -webkit-animation: flashx 5s ease infinite;
+    animation: flashx 5s ease infinite;
+} 
+
+/* FLASHING */
+
+@-webkit-keyframes flashx {
+  30%, 100%, 50% {
+    opacity: 1;
+  }
+
+  25%, 75% {
+    opacity: 0;
+  }
+}
+
+@keyframes flashx {
+  30%, 100%, 50% {
+    opacity: 1;
+  }
+
+  25%, 75% {
+    opacity: 0;
+  }
+}
+/*############################################################################*/
+/*################### EL YAPIMI MODAL PENCERE AYARLARI #######################*/
+/*############################################################################*/
+.GostergePaneli {
+    display: none;
+    width: 450px !Important;
+    height: 320px !Important;
+    padding: 10px !Important;
+}
+.HamveriPaneliAdmin {
+    display: none;
+}
+.SagPanel {
+    display: none;
+}
+.button-background {
+    width: 100%;
+    height: 35px;
+    right: -5px;
+    top: -9px;
+    padding-top: 5px;
+    background-color: #ffffff;
+}
+/* EN GENİŞ EKRAN İÇİN */
+@media only screen and (min-width: 1170px) and (max-width:1920px){
+    .modal-style-1 {
+        //position: fixed !Important;
+        width: 450px !Important;
+        height: 320px !Important;
+        padding: 10px !Important;
+        background: rgba(122, 130, 136, 0.4)!important;
+        //bottom: 55px !Important;
+        left: 5px !Important;
+        border-radius: 8px;
+        //border: 1px #000 solid !Important;
+    }
+    
+    .row-hr-border-bottom-3{
+        border-bottom: 3px #ffffff solid !Important;
+        margin-bottom: 3px !Important;
+    }
+    
+    .modal-style-2 {
+        position: fixed !Important;
+        width: 800px !Important;
+        height: 570px !Important;
+        padding: 10px !Important;
+        background: rgba(122, 130, 136, 0.4)!important;
+        bottom: 55px !Important;
+        right: 10px !Important;
+        border: 1px #eee solid !Important;
+    }
+    
+    .modal-style-3 {
+        position: fixed !Important;
+        width: 350px !Important;
+        height: 100% !Important;
+        padding: 10px !Important;
+        background: rgba(91, 192, 222, 0.7)!important;
+        bottom: 51px !Important;
+        top: 51px !Important;
+        right: 0 !Important;
+        border: 1px #eee solid !Important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:1170px) {
+    .modal-style-1 {
+        //position: fixed !Important;
+        width: 450px !Important;
+        height: 320px !Important;
+        padding: 10px !Important;
+        background: rgba(122, 130, 136, 0.4)!important;
+        //bottom: 75px !Important;
+        left: 5px !Important;
+        border-radius: 8px;
+    }
+    
+    .row-hr-border-bottom-3{
+        border-bottom: 3px #ffffff solid !Important;
+        margin-bottom: 3px !Important;
+    }
+    
+    .modal-style-2 {
+        position: fixed !Important;
+        width: 750px !Important;
+        height: 570px !Important;
+        padding: 10px !Important;
+        background: rgba(122, 130, 136, 0.4)!important;
+        bottom: 75px !Important;
+        right: 10px !Important;
+        border: 1px #eee solid !Important;
+    }
+    
+    .modal-style-3 {
+        position: fixed !Important;
+        width: 350px !Important;
+        height: 100% !Important;
+        padding: 10px !Important;
+        background: rgba(91, 192, 222, 0.7)!important;
+        bottom: 51px !Important;
+        top: 51px !Important;
+        right: 0 !Important;
+        border: 1px #eee solid !Important;
+    }
+}
+
+@media only screen and (min-width: 571px) and (max-width:768px) {
+    .modal-style-1 {
+        //position: fixed !Important;
+        width: 450px !Important;
+        height: 320px !Important;
+        padding: 10px !Important;
+        background: rgba(122, 130, 136, 0.4)!important;
+        //bottom: 105px !Important;
+        left: 5px !Important;
+        border-radius: 8px;
+    }
+    
+    .row-hr-border-bottom-3{
+        border-bottom: 3px #ffffff solid !Important;
+        margin-bottom: 3px !Important;
+    }
+    
+    .modal-style-2 {
+        position: fixed !Important;
+        width: 750px !Important;
+        height: 570px !Important;
+        padding: 10px !Important;
+        background: rgba(122, 130, 136, 0.4)!important;
+        bottom: 105px !Important;
+        right: 10px !Important;
+        border: 1px #eee solid !Important;
+    }
+    
+    .modal-style-3 {
+        position: fixed !Important;
+        width: 350px !Important;
+        height: 100% !Important;
+        padding: 10px !Important;
+        background: rgba(91, 192, 222, 0.7)!important;
+        bottom: 51px !Important;
+        top: 51px !Important;
+        right: 0 !Important;
+        border: 1px #eee solid !Important;
+    }
+}
+
+@media only screen and (min-width: 326px) and (max-width:571px){
+    .modal-style-1 {
+        //position: fixed !Important;
+        width: 450px !Important;
+        height: 320px !Important;
+        padding: 10px !Important;
+        background: rgba(122, 130, 136, 0.4)!important;
+        //bottom: 10px !Important;
+        left: 5px !Important;
+        border-radius: 8px;
+    }
+    
+    .row-hr-border-bottom-3{
+        border-bottom: 3px #ffffff solid !Important;
+        margin-bottom: 3px !Important;
+    }
+    
+    .modal-style-2 {
+        position: fixed !Important;
+        width: 750px !Important;
+        height: 570px !Important;
+        padding: 10px !Important;
+        background: rgba(122, 130, 136, 0.4)!important;
+        bottom: 125px !Important;
+        right: 10px !Important;
+        border: 1px #eee solid !Important;
+    }
+    
+    .modal-style-3 {
+        position: fixed !Important;
+        width: 350px !Important;
+        height: 100% !Important;
+        padding: 10px !Important;
+        background: rgba(91, 192, 222, 0.7)!important;
+        bottom: 51px !Important;
+        top: 51px !Important;
+        right: 0 !Important;
+        border: 1px #eee solid !Important;
+    }
+}
+
+/*########################################*/
+/*########################################*/
+.glyphicon:hover {
+    color: red !Important;
+    border: none !Important;
+}
+
+/* ilave drop veya a etiket ayarları */
+
+.dropdown-menu a:hover {
+    background-color: #080808 !Important;
+    color: #ffffff !Important;
+    border: none !Important;
+}
+
+.right-15 {
+    margin-right: 15px !Important;
+}
+
+/*#########################################*/
+/* Search input alanı auto:focus */
+/*#########################################*/
+
+input {
+    outline: none;
+}
+
+input[type=search] {
+    background: #ededed url(../img/search-icon.png) no-repeat 9px center;
+    border: solid 1px #f5f5f5;
+    padding: 5px 10px 5px 32px;
+    width: 55px;
+
+    -webkit-border-radius: 10em;
+    -moz-border-radius: 10em;
+    border-radius: 10em;
+
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+
+input[type=search]:focus {
+    width: 100%;
+    background-color: #fff;
+    border-color: #66CC75;
+
+    -webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+    -moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+    box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+
+
+/*############################################################################*/
+/*############################# YENİ ÜRÜN EKLEME PANELİ ######################*/
+/*############################################################################*/
+tr.fa-background-adddevice-red{
+    background: red;
+    color: white;
+}
+
+tr.fa-background-adddevice-green{
+    background: green;
+    color: white;
+}
+
+#AtcMotorBlokaj {
+    display: block;
+    //position: absolute;
+    //margin-left: -30px;
+    margin-top: -35px;
+    margin-left: -15px;
+    margin-bottom: -35px;
+    padding-top: 19px;
+    padding-bottom: 0;
+    width: 70px;
+}
+
+#AtcMotorBlokaj:hover {
+    color: red !Important;
+    border: none !Important;
+}

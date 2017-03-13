@@ -1,0 +1,164 @@
+/* global background body */
+body {
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+  background-color: #c5c5c5 !important;
+}
+
+/* user login panel */
+.account-container {
+    width: 480px !important; 
+    display: block !important;
+    margin: 100px auto 0 auto !important;
+    background: #f9f9f9 !important;
+}
+
+/* user login panel border and shadow */
+.account-container{
+    border: 1px solid #d5d5d5 !important;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    border-radius: 5px !important;
+    -webkit-box-shadow: 1px 1px 5px black !important;
+    -moz-box-shadow: 1px 1px 5px black !important;
+    box-shadow: 1px 1px 5px black !important;
+}
+
+/* user login panel transparan opacity efect */
+.account-container {
+    opacity: 0.2;
+    filter: alpha(opacity=20);
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+    transition-delay: 0.5s;
+}
+
+/* user panel transparan opacity efect hover */
+.account-container:hover{
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    transition-duration:0.8s;
+    transition-delay: 0.0s;
+}
+
+.account-container h1 {
+    margin-bottom: .4em;
+    text-shadow: 2px 2px 2px greenyellow !important;
+    color: #525252;
+}
+
+.content {
+    padding: 16px 28px 23px;
+} 
+
+.login-fields .field {
+    margin-bottom: 1.25em;
+}
+
+.login-fields input {
+    font-size: 13px;
+    padding: 11px 15px 10px 50px;
+    width: 100%;
+    display: block;
+    margin: 0;
+    border: 1px #d5d5d5 solid;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    
+}
+
+.username-field { background: url(../img/user.png) no-repeat; }
+
+.password-field { background: url(../img/password.png) no-repeat; }
+
+.login-actions {
+    float: right;
+    width: 50%;
+    margin-top: -1em;
+    margin-bottom: 1.25em;
+}
+
+.login-actionsx {
+    float: left;
+    width: 50%;
+    margin-top: -1em;
+    margin-bottom: 1.25em;
+}
+
+.button {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    display: inline-block;
+    float: right;
+    margin-top: 18px;
+}
+
+@media (max-width: 480px) {
+	
+    .account-container {
+        width: 380px !important;	
+        margin-top: 35px;
+    }
+
+    .login-fields input {
+        width: 100%;
+    }
+
+    .register .login-fields input {
+        width: 100%;
+        padding-left: 6px;
+    }
+	
+}
+
+.fa-red {    
+    color: red !Important;
+    border: none !Important;
+}
+
+.fa-black {
+    color: black !Important;
+    border: none !Important;
+}
+
+.fa-orange {
+    color: orange !Important;
+    border: none !Important;
+}
+
+.fa-green {    
+    color: green !Important;
+    border: none !Important;
+}
+
+.fa-greenyellow {
+    color: greenyellow !Important;
+    border: none !Important; 
+}
+
+.fa-white {
+    color: #ffffff !Important;
+    border: none !Important;
+}
+
+.fa-top-1 {
+    margin-top: -5px;
+}
+
+.fa-active {
+    background-color: #e5e5e5 !Important;
+}
+
+.fa-shadow:hover {
+    color: #000 !important;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #222222, 0 0 40px #222222;
+}
+
+.fa-box-shadow {
+    box-shadow: 0 0 5px black !important;
+}

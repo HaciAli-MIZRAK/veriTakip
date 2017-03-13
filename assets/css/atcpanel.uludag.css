@@ -1,0 +1,156 @@
+/* uludağ projesi durum butonları */
+.uludag-green-connected {
+    width: 85px;
+    height: 85px;
+    border: 1px #70d179 solid;
+    //padding-top: 15px;
+    padding-left: 15px;
+    background: #70d179;
+}
+
+.uludag-gray-connected {
+    width: 85px;
+    height: 85px;
+    border: 1px #d2d2d2 solid;
+    //padding-top: 15px;
+    padding-left: 15px;
+    background: #d2d2d2;
+}
+
+.uludag-red-connected {
+    width: 85px;
+    height: 85px;
+    border: 1px #dc2929 solid;
+    //padding-top: 15px;
+    padding-left: 15px;
+    background: #dc2929;
+}
+
+/* product shelf */
+.product-shelf-general {
+    display: block;
+    margin-left: -5px;
+}
+.product-shelf {
+    display: block;
+    width: 30px;
+    height: 30px;
+    float: right;
+    border: 2px #b4b4b4 solid;
+    padding-top: 3px;
+    margin-top: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.product-shelf-green {
+    background: #70d179 !Important;
+    color: #ffffff !Important;
+}
+
+.product-shelf-red {
+    background: #dc2929 !Important;
+    color: #ffffff !Important;
+}
+
+.product-shelf-orange {
+    background: #f39200 !Important;
+    color: #ffffff !Important;
+}
+
+.product-shelf-gray {
+    background: #d2d2d2 !Important;
+    color: #ffffff !Important;
+}
+/* uludağ projesi box panel alanı */
+.uludag-light-grey-box {
+    width: 289px;
+    height: 131px;
+    padding-top: 25px;
+    padding-left: 25px;
+    background: #e5e5e5;
+}
+
+.uludag-dark-grey-box {
+    width: 289px;
+    height: 130px;
+    background: #d2d2d2;
+}
+
+.uludag-light-grey-box-duble {
+    width: 377px;
+    height: 478px;
+    margin-top: -1px;
+    background: #e5e5e5;
+}
+
+
+/* uludag projesi için özel alanlar */
+.rigth-zero-top {
+    margin-top: -15px;
+    margin-right: 5px;
+}
+
+.left-zero-top {
+    margin-top: -15px;
+    margin-left: -15px;
+}
+
+.fa-bottom-space-3px {
+    margin-bottom: 3px;
+}
+
+.small-mini {
+    margin-top: 5px;
+    text-decoration: underline;
+}
+
+.small-mini-x {
+    margin-top: 15px;
+    margin-right: 55px;
+    font-size: 10pt;
+}
+
+.small-mini-xx {
+    display: block;
+    margin-right: -15px;
+    font-size: 10pt;
+}
+
+.small-mini-xxx {
+    display: block;
+    margin-right: -35px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 10pt;
+}
+
+/* h taglarını yeni style alanı */
+.h4-text-18 {
+    display: block;
+    margin-left: 10px;
+    font-size: 12pt;    
+}
+.h2-text-top {
+    display: block;
+    margin-top: 0px;
+}
+
+.h4-text-top {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: -1px;
+}
+
+#OtomatTemp {
+    font-size: 1.1em;
+    //color: #000000;
+}
+
+/* icon rota düzenleme alanı */
+.fa-rotate-30 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  transform: rotate(30deg);
+}

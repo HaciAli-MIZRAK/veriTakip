@@ -1,0 +1,14 @@
+#IsiGostergesi1, #IsiGostergesi2, #IsiGostergesi3 {
+    width:170px;
+    height:150px;
+    display: block;
+    margin: 5px auto 5px auto;
+    color: #000;
+}
+
+#xIsiGostergesi00, #xIsiGostergesi0401, #xIsiGostergesi0402, #xIsiGostergesi0403 {
+    width:100px; height:80px;
+    display: inline-block;
+    color: #000;
+    margin-left: 20px;
+}

@@ -1,0 +1,445 @@
+.AssanRightPaneleGenele {
+    display: block;
+    position: fixed;
+    width: 265px;
+    height: 100%;
+    top: 51px;
+    right: 0px;
+    padding-top: 45px;
+}
+
+#ButtonAssanPanele {
+    display: block;
+    position: absolute;
+    top: -10px;
+    left: -65px;
+    border: none;
+    text-decoration: none;
+}
+
+#ButtonAssanPanele:focus {outline:0;}
+
+#ButtonAssanPanelevt-alarm {
+    display: block;
+    position: absolute;
+    font-size: 0.6em;
+    top: 10px;
+    left: 35px;
+}
+
+#AssanRightPanele {
+    display: block;
+    display: none;
+    position: fixed;
+    width: 265px;
+    height: 100%;
+    overflow-y: scroll;
+    top: 53px;
+    right: 0px;
+    padding-top: 45px;
+    background: rgba(34, 34, 34, 0.9);
+    
+    /* scrollbar özel alan */
+    scrollbar-face-color: #000000;
+    scrollbar-shadow-color: #2D2C4D;
+    scrollbar-highlight-color:#7D7E94;
+    scrollbar-3dlight-color: #7D7E94;
+    scrollbar-darkshadow-color: #2D2C4D;
+    scrollbar-track-color: #7D7E94;
+    scrollbar-arrow-color: #C1C1D1;
+    /**********************/
+}
+
+/* Assan Bluetooth Panel içerik Tabelesı için scrollbar style */
+#AssanRightPanele::-webkit-scrollbar
+{
+  width: 12px;  /* for vertical scrollbars */
+  height: 12px; /* for horizontal scrollbars */
+}
+
+#AssanRightPanele::-webkit-scrollbar-track
+{
+  background: rgba(210, 210, 210, 0.1);
+}
+
+#AssanRightPanele::-webkit-scrollbar-thumb
+{
+  background: rgba(210, 210, 210, 0.5);
+}
+
+#AssanRightPanele:before {
+    content: '';
+    position:absolute;
+    top: 55px;
+    left: -10px;
+    border-style: solid;
+    transform: rotate(27deg);
+    border-top-width: 30px;
+    border-right-width: 15px;
+    border-left-width: 15px;
+    border-top-color:  rgba(38, 47, 54, 0.9);
+    border-right-color:  transparent;
+    border-bottom-color:  transparent;
+    border-left-color:  transparent;
+}
+
+.AssanRightNotifications {
+    margin-top: 45px;
+    //border: 1px #ffffff solid;
+}
+
+.AssanRightNotificationsBottom {
+    display: block;
+    position: fixed;
+    display: none;
+    width: 265px;
+    padding-top: 15px;
+    padding-left: 35px;
+    padding-bottom: 20px;
+    color: #ffffff;
+    bottom: 1px;
+    background: rgba(34, 34, 34, 0.9);
+}
+
+/* Bluetooth Cihazların içinde Bulunduğu Ana div */
+#bletooh-beacon {
+    display: block;
+    position: absolute !important;
+}
+
+#MoneyCar {
+    display: block;
+    position: absolute !important; 
+}
+
+#bletooh-MoneyCar {
+    position: relative;
+    width: 160px;
+    height: 25px;
+    color: #ffffff;
+    text-align: center;
+    background: rgba(28, 168, 67, 0.6);
+    border: 2px #1ca843 solid;
+    margin: 35px 0 0 77px;
+}
+/* Assan Bluetooth Panel Icon */
+.marker-etiket-assan {
+    width: auto; 
+    background: rgba(80, 86, 91, 0.6); 
+    border: 2px #c5c5c5 solid; 
+    border-radius: 5px; 
+    padding-top: 5px; 
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px; 
+    font-size: 12px; 
+    color: #ffffff;
+    font-weight: bold; 
+    position: absolute;
+    transform: rotate(0deg);
+    left: 50%;
+    top: 50%;
+    margin: -20px 0 0 -55px;
+}
+
+/* Assan Bluetooth Panel Icon içerik Tabelası */
+.marker-etiket-assan-tabela {
+    width: 137px; 
+    height: 100px;
+    background: rgba(80, 86, 91, 0.6); 
+    border: 2px #c5c5c5 solid;
+    overflow-y: scroll;
+    border-radius: 5px; 
+    padding-top: 5px; 
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px; 
+    font-size: 10px; 
+    color: #ffffff;
+    //font-weight: bold; 
+    position: absolute;
+    transform: rotate(0deg);
+    left: 50%;
+    top: 50%;
+    margin: -20px 0 0 77px;
+    /* scrollbar özel alan */
+    scrollbar-face-color: #000000;
+    scrollbar-shadow-color: #2D2C4D;
+    scrollbar-highlight-color:#7D7E94;
+    scrollbar-3dlight-color: #7D7E94;
+    scrollbar-darkshadow-color: #2D2C4D;
+    scrollbar-track-color: #7D7E94;
+    scrollbar-arrow-color: #C1C1D1;
+    /**********************/
+}
+
+/* Assan Bluetooth Panel içerik Tabelesı için scrollbar style */
+.marker-etiket-assan-tabela::-webkit-scrollbar
+{
+  width: 12px;  /* for vertical scrollbars */
+  height: 12px; /* for horizontal scrollbars */
+}
+
+.marker-etiket-assan-tabela::-webkit-scrollbar-track
+{
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.marker-etiket-assan-tabela::-webkit-scrollbar-thumb
+{
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* Assan Bluetooth Panel Icon sinyal yayı */
+.pinKapiGreen {
+  width: auto;
+  height: auto;
+  color: #ffffff;
+  padding: 15px;
+  position: absolute;
+  transform: rotate(0deg);
+  left: 50%;
+  top: 50%;
+  margin: 10px 0 0 -7px;
+}
+
+.pulseKapiGreen {
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: 11px 0px 0px -12px;
+  transform: rotateX(0deg);
+}
+.pulseKapiGreen:after {
+  content: "";
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  background-color: greenyellow;
+  position: absolute;
+  margin: -25px 0 0 -5px;
+  animation: pulsate 5s ease-out;
+  //animation-iteration-count: infinite;
+  opacity: 0;
+  box-shadow: 0 0 2px 3px greenyellow;
+  //animation-delay: 1.2s;
+}
+
+.pinKapiRed {
+  width: auto;
+  height: auto;
+  color: #ffffff;
+  padding: 15px;
+  position: absolute;
+  transform: rotate(0deg);
+  left: 50%;
+  top: 50%;
+  margin: 10px 0 0 -7px;
+}
+
+.pulseKapiRed {
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: 11px 0px 0px -12px;
+  transform: rotateX(0deg);
+}
+.pulseKapiRed:after {
+  content: "";
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  background-color: red;
+  position: absolute;
+  margin: -25px 0 0 -5px;
+  animation: pulsate 2s ease-out;
+  animation-iteration-count: infinite;
+  opacity: 0;
+  box-shadow: 0 0 2px 3px red;
+  animation-delay: 1.2s;
+}
+
+.pin {
+  width: 30px;
+  height: 30px;
+  font-size: 25px;
+  //border-radius: 50% 50% 50% 0;
+  color: #ffffff;
+  background: #00b2a5;
+  position: absolute;
+  transform: rotate(0deg);
+  left: 50%;
+  top: 50%;
+  margin: 10px 0 0 -7px;
+}
+
+.pulse {
+  //background: rgba(0, 0, 0, 0.2);
+  //border-radius: 50%;
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: 11px 0px 0px -12px;
+  transform: rotateX(0deg);
+  //z-index: -2;
+}
+.pulse:after {
+  content: "";
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  //background-color: greenyellow;
+  position: absolute;
+  margin: -13px 0 0 -13px;
+  animation: pulsate 1s ease-out;
+  animation-iteration-count: infinite;
+  opacity: 0;
+  box-shadow: 0 0 2px 3px greenyellow;
+  animation-delay: 1.2s;
+}
+
+.pulsered {
+  //background: rgba(0, 0, 0, 0.2);
+  //border-radius: 50%;
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: 11px 0px 0px -12px;
+  transform: rotateX(0deg);
+  //z-index: -2;
+}
+.pulsered:after {
+  content: "";
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  //background-color: greenyellow;
+  position: absolute;
+  margin: -13px 0 0 -13px;
+  animation: pulsate 1s ease-out;
+  animation-iteration-count: infinite;
+  opacity: 0;
+  box-shadow: 0 0 2px 3px red;
+  animation-delay: 1.2s;
+}
+
+@keyframes pulsate {
+  0% {
+    transform: scale(0.1, 0.1);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.2, 1.2);
+    opacity: 0;
+  }
+}
+@keyframes bounce {
+  0% {
+    opacity: 0;
+    transform: translateY(-2000px) rotate(-45deg);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(30px) rotate(-45deg);
+  }
+  80% {
+    transform: translateY(-10px) rotate(-45deg);
+  }
+  100% {
+    transform: translateY(0) rotate(-45deg);
+  }
+}
+
+/* search-box-assan style */
+.fa-bluetotth-color{
+color:#1111f1;
+text-shadow: 0 0 10px #1111f1, 0 0 20px #1111f1, 0 0 30px #1111f1, 0 0 40px #1111f1;
+}
+
+/* Assan Bölgeler projesi durum butonları */
+.assan-bolgeler-green-connected {
+    width: 85px;
+    height: 85px;
+    border: 1px #70d179 solid;
+    padding-left: 15px;
+    background: #70d179;
+}
+
+.assan-bolgeler-gray-connected {
+    width: 85px;
+    height: 85px;
+    border: 1px #d2d2d2 solid;
+    padding-top: 15px;
+    padding-left: 15px;
+    background: #d2d2d2;
+}
+
+.assan-bolgeler-red-connected {
+    width: 85px;
+    height: 85px;
+    border: 1px #dc2929 solid;
+    padding-top: 15px;
+    padding-left: 15px;
+    background: #dc2929;
+}
+
+/* Assan Bölgeler projesi box panel alanı */
+.uludag-light-grey-box {
+    width: 289px;
+    height: 131px;
+    padding-top: 25px;
+    padding-left: 25px;
+    background: #e5e5e5;
+}
+
+.uludag-dark-grey-box {
+    width: 289px;
+    height: 130px;
+    background: #d2d2d2;
+}
+
+.uludag-light-grey-box-duble {
+    width: 377px;
+    height: 478px;
+    margin-top: -1px;
+    background: #e5e5e5;
+}
+
+
+/* Assan Bölgeler projesi için özel alanlar */
+
+button:focus {outline:0;}
+
+.popover {
+    color: #ffffff !Important; 
+    border: none;
+    background: #dc2929 !Important;
+}
+/* Geri Sayım Sayacı */
+.BackTimeoutz {
+    display: block;
+    position: absolute;
+    top: 55px;
+    left: 5px;
+    color: #ffffff;
+    font-size: 2.0em;
+    border: 1px #ffffff solid;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #222222;
+}
+

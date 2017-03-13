@@ -1,0 +1,31 @@
+#gaugeValue {
+    padding: 10px;
+}
+
+.valuePanel {
+    position: absolute;
+    top: 125px;
+    left: 70px;
+    font-family: Sans-Serif;
+    text-align: center;
+    font-size: 17px;
+    width: 100px;
+}
+
+#gaugeValuex {
+    padding: 10px;
+}
+
+.valuePanelx {
+    position: absolute;
+    top: 180px;
+    left: 50px;
+    font-family: Sans-Serif;
+    text-align: center;
+    font-size: 14px;
+    width: 130px;
+}
+
+#gaugeContainer {
+    margin-left: -45px;
+}
